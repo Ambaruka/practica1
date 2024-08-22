@@ -1,0 +1,3 @@
+C:/Users/AmbarPC/programacion_escuela/orientada_a_eventos/practica_1/cmake-build-debug/CMakeFiles/untitled1.dir
+C:/Users/AmbarPC/programacion_escuela/orientada_a_eventos/practica_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/AmbarPC/programacion_escuela/orientada_a_eventos/practica_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

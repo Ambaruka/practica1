@@ -1,0 +1,11 @@
+# ninja log v5
+6	1149	7459230536510951	CMakeFiles/untitled1.dir/main.cpp.obj	8cd52a6c4aefb638
+16	953	7459109122819401	CMakeFiles/untitled1.dir/evento.cpp.obj	ca275683cb3b4a7
+991	1174	7459238204008336	untitled1.exe	b1b4b7871e233b3d
+5	990	7459238202197704	CMakeFiles/untitled1.dir/agenda.cpp.obj	523a43a4b980e3da
+75	959	7459619112815143	CMakeFiles/untitled1.dir/evento.cpp.obj	432e3994b24b488c
+5	1035	7459619113575046	CMakeFiles/untitled1.dir/main.cpp.obj	e3f7c96daed77884
+69	1391	7459619117125633	CMakeFiles/untitled1.dir/agenda.cpp.obj	f109e51fbf772bfd
+1391	1912	7459619122289955	untitled1.exe	b1b4b7871e233b3d
+5	965	7459854473830825	CMakeFiles/untitled1.dir/agenda.cpp.obj	f109e51fbf772bfd
+967	1181	7459854475930856	untitled1.exe	b1b4b7871e233b3d
