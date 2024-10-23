@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FRMPrestamo">
+  <grid id="27dc6" binding="JPPrestamo" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="547" height="830"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d16d5" class="javax.swing.JLabel" binding="JLTituolo">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="36"/>
+          <text value="Registro de prestamos"/>
+        </properties>
+      </component>
+      <component id="c68a" class="javax.swing.JLabel" binding="JLPrestamo">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Día de prestamo"/>
+        </properties>
+      </component>
+      <component id="3d431" class="javax.swing.JLabel" binding="JLEntrega">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Día de entrega"/>
+        </properties>
+      </component>
+      <scrollpane id="47130">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="12f3" class="javax.swing.JList" binding="JLIEntrega">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+                <item value="6"/>
+                <item value="7"/>
+                <item value="8"/>
+                <item value="9"/>
+                <item value="10"/>
+                <item value="11"/>
+                <item value="12"/>
+                <item value="13"/>
+                <item value="14"/>
+                <item value="15"/>
+                <item value="16"/>
+                <item value="17"/>
+                <item value="18"/>
+                <item value="19"/>
+                <item value="20"/>
+                <item value="21"/>
+                <item value="22"/>
+                <item value="23"/>
+                <item value="24"/>
+                <item value="25"/>
+                <item value="26"/>
+                <item value="27"/>
+                <item value="28"/>
+                <item value="29"/>
+                <item value="30"/>
+                <item value="31"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="b1d7f">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d5390" class="javax.swing.JList" binding="JLIprestamo">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+                <item value="6"/>
+                <item value="7"/>
+                <item value="8"/>
+                <item value="9"/>
+                <item value="10"/>
+                <item value="11"/>
+                <item value="12"/>
+                <item value="13"/>
+                <item value="14"/>
+                <item value="15"/>
+                <item value="16"/>
+                <item value="17"/>
+                <item value="18"/>
+                <item value="19"/>
+                <item value="20"/>
+                <item value="21"/>
+                <item value="22"/>
+                <item value="23"/>
+                <item value="24"/>
+                <item value="25"/>
+                <item value="26"/>
+                <item value="27"/>
+                <item value="28"/>
+                <item value="29"/>
+                <item value="30"/>
+                <item value="31"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="b06a0" class="javax.swing.JTextField" binding="JTAlumno">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6fb0a" class="javax.swing.JLabel" binding="JLNombre">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nombre alumno:"/>
+        </properties>
+      </component>
+      <component id="5d3f9" class="javax.swing.JLabel" binding="JLLibro">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Libro:"/>
+        </properties>
+      </component>
+      <component id="4959e" class="javax.swing.JTextField" binding="JTLibro">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="41fcf">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="2fd9">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="6ddbb">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="b6cad" class="javax.swing.JButton" binding="JBRegistrar">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Registrar"/>
+        </properties>
+      </component>
+      <component id="c294e" class="javax.swing.JButton" binding="JBLimpiar">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Limpiar"/>
+        </properties>
+      </component>
+      <component id="693bb" class="javax.swing.JButton" binding="JBAtras">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;-"/>
+        </properties>
+      </component>
+      <vspacer id="9f5">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="e02d8" class="javax.swing.JLabel" binding="JLMensaje">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="16018">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="53da6">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
