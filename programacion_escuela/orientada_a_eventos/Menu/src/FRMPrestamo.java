@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class FRMPrestamo extends JFrame{
     private JPanel JPPrestamo;
@@ -64,6 +66,13 @@ public class FRMPrestamo extends JFrame{
             vacio();
             }
         });
+        JTAlumno.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                super.keyTyped(e);
+                enter(e,JTAlumno,JTLibro);
+            }
+        });
     }
     private boolean posible(){
         boolean posible = true;
@@ -76,6 +85,13 @@ public class FRMPrestamo extends JFrame{
         JTLibro.setText("");
         JLIEntrega.clearSelection();
         JLIprestamo.clearSelection();
+    }
+
+    private void enter(KeyEvent e, JTextField javier, JComponent oskar){
+        char letra = e.getKeyChar();
+        if (letra == KeyEvent.VK_ENTER) {
+            oskar.requestFocus();//pasar el focus al siguiente input
+        }
     }
 
 }

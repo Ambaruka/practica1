@@ -45,13 +45,6 @@ public class FRMLibros extends JFrame{
                 mensaje();
             }
         });
-        JLGeneros.addComponentListener(new ComponentAdapter() {
-            @Override
-            public void componentResized(ComponentEvent e) {
-                super.componentResized(e);
-                mensaje();
-            }
-        });
         JRDisponible.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
